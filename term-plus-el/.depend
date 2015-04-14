@@ -1,0 +1,11 @@
+term+.elc: term+vars.elc
+term+.elc: term+edit.elc
+term+.elc: term+logging.elc
+term+.elc: term+file-transfer.elc
+term+.elc: term+shell-history.elc
+term+edit.elc: term+vars.elc
+term+edit.elc: term+input.elc
+term+file-transfer.elc: term+vars.elc
+term+input.elc: term+vars.elc
+term+logging.elc: term+vars.elc
+term+shell-history.elc: term+vars.elc

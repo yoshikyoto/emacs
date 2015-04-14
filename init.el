@@ -76,7 +76,9 @@
 (setq undo-strong-limit 900000)
 
 
-;; magit
-;; git client for emacs
-;; clone from github https://github.com/magit/magit
-;;
+;; term+
+(add-to-list 'load-path "~/.emacs.d/term-plus-el")
+(require 'term+)
+
+
+
