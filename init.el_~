@@ -53,12 +53,12 @@
 
 
 ;; setting for auto-install
-;; (add-to-list 'load-path "~/.emacs.d/auto-install/")
-;; (add-to-list 'load-path (expand-file-name "~/.emacs.d/auto-install/"))
-;; (require 'auto-install)
-;; (auto-install-update-emacswiki-package-name t)
-;; (auto-install-compatibility-setup)
-;; (setq ediff-window-setup-function 'ediff-setup-windows-plain)
+(add-to-list 'load-path "~/.emacs.d/auto-install/")
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/auto-install/"))
+(require 'auto-install)
+(auto-install-update-emacswiki-package-name t)
+(auto-install-compatibility-setup)
+(setq ediff-window-setup-function 'ediff-setup-windows-plain)
 
 
 ;; package.el
@@ -87,8 +87,8 @@
 
 
 ;; term+
-(add-to-list 'load-path "~/.emacs.d/term-plus-el")
-(require 'term+)
+;; (add-to-list 'load-path "~/.emacs.d/term-plus-el")
+;; (require 'term+)
 
 
 ;; yasnippet
@@ -104,18 +104,18 @@
 
 
 ;; markdown-mode
-(add-to-list 'load-path "~/.emacs.d/markdown-mode")
-(autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
-(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+;; (add-to-list 'load-path "~/.emacs.d/markdown-mode")
+;; (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
+;; (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
 
 ;; powerline
 ;; 見た目を変えるだけ
 ;; https://github.com/jonathanchu/emacs-powerline
-(add-to-list 'load-path "~/.emacs.d/emacs-powerline")
-(require 'powerline)
-(require 'cl) ; common-lisp
-(setq powerline-arrow-shape 'curve) ; これで角が変わるけどターミナルだと意味がない？
-(setq powerline-color1 "grey22")
-(setq powerline-color2 "grey40")
+;; (add-to-list 'load-path "~/.emacs.d/emacs-powerline")
+;; (require 'powerline)
+;; (require 'cl) ; common-lisp
+;; (setq powerline-arrow-shape 'curve) ; これで角が変わるけどターミナルだと意味がない？
+;; (setq powerline-color1 "grey22")
+;; (setq powerline-color2 "grey40")
 
