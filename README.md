@@ -26,7 +26,12 @@ http://xay-lab.nautilus.xyz/2010/09/emacs.html
 * スニペット管理パッケージ
 * 参考: http://ochiailab.blogspot.jp/2012/12/yasnippet.html
 * 参考: http://konbu13.hatenablog.com/entry/2014/01/12/113300
-* github: https://github.com/capitaomorte/yasnippet 
+* github: https://github.com/capitaomorte/yasnippet
+
+
+### scala-node, ENSIME
+
+scala-modeは.scalaでシンタックスハイライトを有効にする。
 
 
 ## 入れたいパッケージ/メモ

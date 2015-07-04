@@ -27,6 +27,8 @@
 ;; マークの範囲に色をつける
 (setq transient-mark-mode t)
 
+;; デフォルトのタブ幅を4に設定
+(setq default-tab-width 4)
 
 ;; 矩形選択
 (cua-mode t)
@@ -76,8 +78,7 @@
 (ac-config-default)
 
 
-;; redo+
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/redo"))
+(add-to-list 'load-path "~/.emacs.d/redo")
 (require 'redo+)
 (define-key global-map (kbd "C-M-z") 'redo)
 (setq undo-no-redo t)
@@ -90,6 +91,9 @@
 (add-to-list 'load-path "~/.emacs.d/term-plus-el")
 (require 'term+)
 
+
+;; タブは使わずにスペースでインデントする
+(setq-default indent-tabs-mode nil)
 
 ;; yasnippet
 ;; mysnippents はオリジナルスニペットを保存する場所
@@ -107,6 +111,61 @@
 (add-to-list 'load-path "~/.emacs.d/markdown-mode")
 (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
+
+
+;; scala-mode2
+;; https://github.com/hvesalai/scala-mode2
+(add-to-list 'load-path "~/.emacs.d/scala-mode2")
+(setq scala-indent:use-javadoc-style t)
+(require 'scala-mode2)
+
+;; ensime
+;; (add-to-list 'load-path "~/.emacs.d/ensime")
+;; (require 'ensime)
+;; (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
+
+
+
+;; csharp-mode
+(add-to-list 'load-path "~/.emacs.d/csharp-mode")
+(require 'csharp-mode)
+(add-hook 'csharp-mode-hook
+		  '(lambda ()
+			 (setq indent-tabs-mode nil)
+			 (setq c-basic-offset 4)
+			 (c-set-offset 'substatement-open 0)
+			 (flycheck-mode 1)
+			 (omnisharp-mode)))
+
+
+
+;; html-mode
+(add-to-list 'auto-mode-alist '("\\.scala.html$" . html-mode))
+
+;; web-mode
+(add-to-list 'load-path "~/.emacs.d/web-mode")
+(require 'web-mode)
+;; 拡張子の設定
+(add-to-list 'auto-mode-alist '("\\.phtml$"     . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsp$"       . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x$"   . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb$"       . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html?$"     . web-mode))
+;; インデント関係
+(defun web-mode-hook ()
+  "Hooks for Web mode."
+  (setq web-mode-html-offset   4)
+  (setq web-mode-css-offset    4)
+  (setq web-mode-script-offset 4)
+  (setq web-mode-php-offset    4)
+  (setq web-mode-java-offset   4)
+  (setq web-mode-asp-offset    4)
+  (setq indent-tabs-mode t)
+  (setq tab-width 4))
+(add-hook 'web-mode-hook 'web-mode-hook)
+
 
 
 ;; powerline

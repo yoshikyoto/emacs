@@ -1,58 +1,996 @@
-((("createTodayText" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("get" .
-   [1 0 0])
-  ("forecasts" .
-   [3 0 0 0 0 0 0 0 0])
-  ("forecast" .
-   [0 0 0 0 1 0 0 0])
-  ("screenName" .
-   [1 0 0 0 0 0 1 0 0 0])
-  ("post_text" .
-   [7 0 0 0 0 0 0 0 0])
-  ("null" .
+((("fontText" .
+   [1 0 0 0 0 0 0 0])
+  ("_context" .
+   [2 0 0 0 0 0 0 0])
+  ("_canvasWidth" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("fontSize" .
+   [1 0 0 0 0 0 0 0])
+  ("commentColorName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("commentPositionName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("vpos" .
    [1 0 0 0])
-  ("init" .
-   [2 0 0 0])
-  ("Function" .
-   [0 0 0 0 0 1 0 0])
-  ("cnt" .
-   [2 0 0])
-  ("isPrime" .
-   [5 0 0 0 0 1 0])
-  ("prime" .
-   [1 0 0 0 0])
-  ("log" .
-   [6 0 0])
-  ("console" .
-   [2 0 0 0 0 3 0])
-  ("false" .
-   [1 0 0 0 0])
-  ("true" .
-   [1 0 0 0])
-  ("colors" .
-   [1 0 0 0 0 0])
-  ("wget" .
-   [1 0 0 0])
-  ("OSTYPE" .
-   [0 0 0 0 1 0])
-  ("ls" .
-   [2 0])
-  ("consumerKey" .
+  ("CommentItem" .
    [1 0 0 0 0 0 0 0 0 0 0])
-  ("consumerSecret" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("accessToken" .
-   [0 0 0 1 1 0 0 0 0 0 0])
-  ("accessTokenSecret" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("BOT_ID" .
+  ("pixiObject" .
+   [1 0 0 0 0 1 0 0 0 0])
+  ("getComments" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("push" .
+   [1 0 0 0])
+  ("videoPosition" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("randomNumber" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("color" .
+   [3 0 0 0 0])
+  ("font" .
+   [2 0 0 0])
+  ("black" .
+   [1 0 0 0 0])
+  ("userIdCookie" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("CommentModel" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("SafetyToIntTrait" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("renderer" .
+   [1 0 0 0 0 0 0 0])
+  ("PIXI" .
+   [2 0 0 0])
+  ("javascript" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("type" .
+   [4 0 0 0])
+  ("script" .
+   [2 0 0 0 0 0])
+  ("audio_block" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("src" .
+   [1 0 0])
+  ("pixiview" .
+   [2 0 0 0 0 0 0 0])
+  ("pixi" .
+   [1 0 1 0])
+  ("height" .
+   [8 0 1 0 0 0])
+  ("width" .
+   [7 0 1 0 0])
+  ("style" .
+   [2 0 1 0 0])
+  ("--" .
+   [3 0])
+  ("currentTime" .
+   [7 0 0 0 0 0 0 1 0 0 0])
+  ("fps" .
+   [3 0 0])
+  ("drawImage" .
+   [2 0 0 0 0 0 0 0 0])
+  ("content" .
+   [1 0 0 0 0 0 0])
+  ("canvases" .
+   [2 0 0 0 0 0 0 0])
+  ("var" .
+   [12 0 0])
+  ("animate" .
+   [4 0 0 0 0 0 0])
+  ("sleep" .
+   [1 0 0 0 0])
+  ("Thread" .
    [1 0 0 0 0 0])
+  ("updatedAt" .
+   [1 0 0 0 0 0 0 0 0])
+  ("userProfileRow" .
+   [5 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UserProfileRow" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("Tables" .
+   [2 0 0 0 0 0])
+  ("sessionKey" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("mysql" .
+   [1 0 0 0 0])
+  ("video" .
+   [5 0 0 0 0])
+  ("canvas" .
+   [7 0 0 0 0 0])
+  ("ans" .
+   [3 0 0])
+  ("append" .
+   [3 0 0 0 0 0])
+  ("already" .
+   [0 0 0 0 2 1 0])
+  ("order" .
+   [1 0 0 0 0])
+  ("permutations" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("itertools" .
+   [0 0 0 0 0 0 0 1 0])
+  ("0L" .
+   [1 0])
+  ("WithApplication" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("in" .
+   [3 0])
+  ("contentAsString" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0])
+  ("home" .
+   [1 0 0 0])
+  ("which" .
+   [1 0 0 0 0])
+  ("beSome" .
+   [0 0 1 0 0 0])
+  ("OK" .
+   [1 0])
+  ("test" .
+   [1 0 0 0])
+  ("NOT_FOUND" .
+   [0 0 0 0 1 0 0 0 0])
+  ("equalTo" .
+   [5 0 0 0 1 0 0])
+  ("must" .
+   [5 0 0 0])
+  ("status" .
+   [1 0 0 0 0 0])
+  ("の画像は存在しません" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("NotFound" .
+   [3 0 0 0 0 0 0 0])
+  ("CONTENT_TYP" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("fromStream" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("Enumerator" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("body" .
+   [8 0 0 0])
+  ("ResponseHeader" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("header" .
+   [1 0 0 0 0 0])
+  ("Result" .
+   [1 0 0 0 0 0])
+  ("getPicture" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("pictureModel" .
+   [2 0 0 0 0 0 0 0 1 0 0 0])
+  ("PictureModel" .
+   [0 0 0 0 1 0 0 7 0 0 0 0])
+  ("models" .
+   [2 0 0 0 0 0])
+  ("io" .
+   [2 0])
+  ("isRabbitMQConsumerStarted" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("AtomicBoolean" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("util" .
+   [3 0 0 0])
+  ("availableContentType" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("image" .
+   [8 0 0 0 0])
+  ("Mojipic" .
+   [0 0 0 0 1 0 0])
+  ("function" .
+   [3 0 0 0 1 0 0 0])
+  ("setInterval" .
+   [2 0 0 0 0 0 0 0 1 0 0])
+  ("loadPictureList" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("forEach" .
+   [1 0 0 0 0 0 0])
+  ("reverse" .
+   [0 0 0 0 0 1 0])
+  ("paintPicture" .
+   [0 0 0 0 0 2 0 0 0 0 0 0])
+  ("appendLastCreatedDate" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("url" .
+   [9 0 0])
+  ("toString" .
+   [0 0 0 0 1 1 1 1])
+  ("picture" .
+   [0 0 0 0 0 1 0])
+  ("stringify" .
+   [1 0 0 0 0 0 0 0 0])
+  ("toJson" .
+   [1 0 0 0 0 0])
+  ("fetchUserPicturesMeta" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("toSeq" .
+   [0 0 0 0 1])
+  ("fetchSize" .
+   [0 0 0 0 0 0 1 0 0])
+  ("DefaultFromDate" .
+   [2 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("parse" .
+   [1 0 0 0 0])
+  ("apply" .
+   [2 0 0 0 0])
+  ("CREATED_TIME" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("FILE_NAME" .
+   [0 0 1 0 0 0 0 0 0])
+  ("OVERLAY_TEXT_SIZE" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("s" .
+   [1])
+  ("OVERLAY_TEXT" .
+   [0 0 1 0 1 0 0 0 0 0 0 0])
+  ("string" .
+   [3 0 0 0 0 0])
+  ("TWITTER_ID" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("PICTURE_ID" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("rs" .
+   [9 0])
+  ("readOnly" .
+   [2 0 0 0 0 0 0 0])
+  ("db" .
+   [4 0])
+  ("borrow" .
+   [2 0 0 0 0 0])
+  ("ConnectionPool" .
+   [0 0 0 0 0 1 0 0 0 0 1 0 0 0])
+  ("DB" .
+   [2 0])
+  ("using" .
+   [2 0 0 0 0])
+  ("fetchPicturesMeta" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("json" .
+   [2 0 0 0])
+  ("CONTENT_TYPE" .
+   [2 0 0 0 0 0 0 0 0 1 1 0])
+  ("withHeaders" .
+   [1 0 0 0 0 0 0 1 1 0 0])
+  ("jsValue" .
+   [3 0 0 0 0 0 0])
+  ("toDate" .
+   [6 0 0 0 0 0])
+  ("lastCreatedDate" .
+   [1 0 0 0 3 1 0 0 0 0 0 1 0 0 0])
+  ("postedPicture" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0])
+  ("createdDate" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("filename" .
+   [1 0 0 0 0 0 0 0])
+  ("twitterId" .
+   [5 0 0 0 0 0 0 4 0])
+  ("Json" .
+   [5 0 0 0])
+  ("JsValue" .
+   [1 0 0 0 1 0 1])
+  ("c" .
+   [2])
+  ("Writes" .
+   [1 0 0 0 0 0])
+  ("libs" .
+   [1 0 0 0])
+  ("ConvertedPictureMeta" .
+   [3 0 0 0 0 1 5 0 3 2 0 0 0 0 0 0 0 0 0 0])
+  ("pictureId" .
+   [9 0 2 2 1 0 0 0 0])
+  ("SerialVersionUID" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("convertedFile" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("addImage" .
+   [1 0 0 0 0 0 0 0])
+  ("annotate" .
+   [1 0 0 0 0 0 0 0])
+  ("stroke" .
+   [0 0 0 0 1 0])
+  ("overlayText" .
+   [0 0 0 0 1 0 1 3 0 0 0])
+  ("overlayTextSize" .
+   [1 0 0 0 1 0 0 0 0 0 0 0 1 1 0])
+  ("imageMagicFontPath" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("getAbsolutePath" .
+   [0 0 0 0 1 0 1 0 0 0 0 0 0 0 0])
+  ("imageMagicPath" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("imagemagick" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("getString" .
+   [0 0 0 0 0 0 0 1 0])
+  ("configuration" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("application" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("cmd" .
+   [2 0 0])
+  ("ConvertCmd" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("convertPicture" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("delete" .
+   [1 0 0 0 0 0])
+  ("storeOnDb" .
+   [0 0 0 0 0 1 0 0 0])
+  ("convertedFileName" .
+   [2 0 0 0 0 0 2 0 0 3 0 0 0 0 0 0 0])
+  ("File" .
+   [4 0 0 0])
+  ("pictureBinary" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("outputStream" .
+   [1 0 0 0 0 0 1 0 0 0 0 0])
+  ("core" .
+   [1 0 0 0])
+  ("bytesBinder" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("sql" .
+   [4 0 0])
+  ("idx" .
+   [1 0 0])
+  ("stmt" .
+   [1 0 0 0])
+  ("PreparedStatement" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("InputStream" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("binary" .
+   [7 0 0 0 0 0])
+  ("ByteArrayInputStream" .
+   [1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0])
+  ("password" .
+   [1 0 0 0 0 0 0 0])
+  ("Connection" .
+   [1 0 0 0 0 1 0 0 0 0])
+  ("Loading" .
+   [2 0 0 0 0 0 0])
+  ("h2" .
+   [1 0])
+  ("thorw" .
+   [1 0 0 0 0])
+  ("Date" .
+   [7 0 0 0])
+  ("current" .
+   [1 0 0 0 0 1 0])
+  ("Play" .
+   [7 0 0 0])
+  ("fileInputStream" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("getOrElse" .
+   [2 0 0 0 0 2 0 0 0])
+  ("contentType" .
+   [2 0 0 0 0 0 0 6 3 1 0])
+  ("fileName" .
+   [4 0 0 0 0 0 0 1])
+  ("tmpFile" .
+   [6 0 0 6 1 0 0])
+  ("FileInputStream" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("FilePart" .
+   [2 0 0 0 0 0 0 0])
+  ("TemporaryFile" .
+   [0 0 0 0 1 1 0 1 0 0 0 0 0])
+  ("MultipartFormData" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("createSerializableObject" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Forbidden" .
+   [1 0 0 0 0 1 0 0 0])
+  ("index" .
+   [2 0 0 0 0])
+  ("html" .
+   [2 0 0 0])
+  ("views" .
+   [2 0 0 0 0])
+  ("Ok" .
+   [3 0])
+  ("multiForm" .
+   [2 0 0 0 0 0 0 2 0])
+  ("multiFormOpt" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("session" .
+   [10 0 0 0 0 0 0])
+  ("id" .
+   [9 0])
+  ("value" .
+   [5 0 0 0 1])
+  ("SessionId" .
+   [0 0 0 0 0 1 0 0 0])
+  ("cookies" .
+   [0 0 0 1 0 0 0])
+  ("sessionIdOpt" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("request" .
+   [5 0 0 0 0 0 0])
+  ("Controller" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("auth" .
+   [1 0 0 0])
+  ("postfixOps" .
+   [0 0 0 0 3 0 0 0 0 0])
+  ("language" .
+   [2 0 0 0 0 1 0 0])
+  ("mvc" .
+   [2 0 0])
+  ("cache" .
+   [1 0 0 0 0])
+  ("api" .
+   [7 0 0])
+  ("time" .
+   [4 0 0 0])
+  ("joda" .
+   [3 0 0 0])
+  ("org" .
+   [11 0 0])
+  ("CookieKeys" .
+   [0 0 0 1 1 0 0 0 0 0])
+  ("OriginalPicture" .
+   [0 0 0 5 0 3 0 2 2 0 0 0 0 0 0])
+  ("mojipic" .
+   [3 0 2 0 0 0 0])
+  ("EntryPointController" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DateTime" .
+   [10 0 0 0 4 0 0 0])
+  ("controllers" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("remove" .
+   [5 0 0 0 0 0])
+  ("CurrentImperialTimeStringCreator" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("modules" .
+   [2 0 0 0 0 0 0])
+  ("Calender" .
+   [1 0 0 0 0 0 0 0])
+  ("locale" .
+   [2 0 0 0 0 0])
+  ("SimpleDateFormat" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("Locale" .
+   [1 0 0 0 0 0])
+  ("Text" .
+   [0 0 1 0])
+  ("package" .
+   [0 0 0 2 0 1 0])
+  ("MessageProvider" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("scalaVersion" .
+   [0 0 0 0 0 0 0 0 1 1 0 0])
+  ("SNAPSHOT" .
+   [1 0 0 0 0 0 1 0])
+  ("version" .
+   [2 0 0 0 0 0 0])
+  ("domain" .
+   [1 0 0 0 0 0])
+  ("name" .
+   [3 0 0 0])
+  ("hello" .
+   [6 1 0 0 0])
+  ("file" .
+   [8 0 0 0])
+  ("project" .
+   [3 0 0 0 0 0 0])
+  ("helloDomain" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("actorOf" .
+   [1 0 0 0 0 0 1])
+  ("lazy" .
+   [0 0 0 1])
+  ("hub" .
+   [1 0 0])
+  ("robot" .
+   [2 0 0 0 0])
+  ("actorRefFuture" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("seconds" .
+   [3 0 0 0 1 0 0])
+  ("robotPath" .
+   [2 0 0 0 0 0 0 0 0])
+  ("actorSelection" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("concurrent" .
+   [3 0 0 0 0 0 0 1 0 0])
+  ("ChatHub" .
+   [30 0 0 0 3 1 3])
+  ("system" .
+   [9 0 0 0 0 0])
+  ("Props" .
+   [2 0 1 1 1])
+  ("actor" .
+   [5 0 0 0 0])
+  ("akka" .
+   [8 0 0 0])
+  ("actors" .
+   [4 0 0 0 0 0])
+  ("message" .
+   [31 0 0 0 0 0 0])
+  ("room" .
+   [5 0 0 0])
+  ("RobotReceiveMessage" .
+   [0 0 0 0 0 1 0 5 0 0 0 0 0 0 0 0 0 0 0])
+  ("originalTrip" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("tail" .
+   [2 0 0 0])
+  ("head" .
+   [3 0 0 0])
+  ("splitter" .
+   [1 0 0 0 0 0 0 0])
+  ("originalUsername" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("MessageDigest" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 1])
+  ("callerState" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("clients" .
+   [0 0 0 0 0 1 0])
+  ("Robot" .
+   [1 0 0 0 1])
+  ("digestedUsername" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("connectionsToUsernames" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("containsValue" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("username" .
+   [5 0 0 0 0 0 0 0])
+  ("Akka" .
+   [6 0 0 0])
+  ("play" .
+   [11 0 0 0])
+  ("java" .
+   [11 0 0 0])
+  ("default-tab-width" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("setq" .
+   [3 0 0 0])
+  ("scala-mode2" .
+   [0 0 0 0 0 2 0 0 0 0 0])
+  ("require" .
+   [0 0 0 0 0 1 0])
+  ("load-path" .
+   [0 0 0 0 0 1 0 0 0])
+  ("add-to-list" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("PROMPT" .
+   [0 0 0 1 0 0])
+  ("data" .
+   [5 0 0 0])
+  ("text" .
+   [12 0 0 0])
   ("bot" .
    [1 0 0])
-  ("text" .
-   [9 0 0 0])
-  ("data" .
+  ("BOT_ID" .
+   [1 0 0 0 0 0])
+  ("accessTokenSecret" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("accessToken" .
+   [0 0 0 1 1 0 1 0 0 0 0])
+  ("consumerSecret" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("consumerKey" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("ls" .
+   [2 0])
+  ("OSTYPE" .
+   [0 0 0 0 1 0])
+  ("wget" .
+   [1 0 0 0])
+  ("colors" .
+   [3 0 0 0 0 0])
+  ("true" .
+   [2 0 0 0])
+  ("false" .
+   [3 0 0 0 0])
+  ("console" .
+   [28 0 1 0 0 3 0])
+  ("log" .
+   [38 0 0])
+  ("prime" .
+   [1 0 0 0 0])
+  ("isPrime" .
+   [11 0 0 0 0 1 0])
+  ("cnt" .
+   [6 0 0])
+  ("Function" .
+   [0 0 0 1 1 1 2 0])
+  ("init" .
+   [2 0 0 0])
+  ("null" .
+   [1 0 0 0])
+  ("post_text" .
+   [7 0 0 0 0 0 0 0 0])
+  ("screenName" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("forecast" .
+   [0 0 0 0 1 0 0 0])
+  ("forecasts" .
+   [3 0 0 0 0 0 0 0 0])
+  ("get" .
+   [12 0 0])
+  ("createTodayText" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("add-hook" .
+   [0 0 0 0 0 0 1 0])
+  ("scala-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("lambda" .
+   [0 0 0 0 1 0])
+  ("tab-width" .
+   [0 0 0 0 0 0 1 0 0])
+  ("val" .
+   [3 0 1])
+  ("done" .
+   [1 0 0 0])
+  ("result" .
+   [4 0 0 0 0 0])
+  ("splitedInputedUsername" .
+   [0 0 0 0 0 0 0 1 2 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("left" .
+   [1 0 1 0])
+  ("tripKey" .
+   [0 0 0 0 1 0 0])
+  ("userNameShaObj" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("hexString" .
+   [0 0 0 2 0 0 0 0 0])
+  ("length" .
+   [1 0 0 1 2 0])
+  ("numArray" .
+   [1 0 0 0 1 0 0 2])
+  ("parseInt" .
+   [0 0 0 0 0 1 0 0])
+  ("trip" .
    [3 0 0 0])
-  ("PROMPT" .
-   [0 0 0 1 0 0])))
+  ("chars" .
+   [2 0 0 0 0])
+  ("charAt" .
+   [0 0 0 0 0 1])
+  ("userNameAndTrip" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0])
+  ("userName" .
+   [2 0 0 0 0 0 0 0])
+  ("Logger" .
+   [8 0 2 0 0 0])
+  ("debug" .
+   [3 0 2 0 0])
+  ("add" .
+   [1 0 0])
+  ("addUserToRoom" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("groups" .
+   [1 0 0 0 0 0])
+  ("users" .
+   [12 0 0 0 0])
+  ("createRoom" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("size" .
+   [2 0 0 1])
+  ("empty" .
+   [3 0 1 0 0])
+  ("TrieMap" .
+   [1 0 0 1 3 0 0])
+  ("scala" .
+   [0 0 0 1 0])
+  ("Collection" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("put" .
+   [4 0 0])
+  ("map" .
+   [9 0 0])
+  ("set" .
+   [1 0 0])
+  ("key" .
+   [1 0 0])
+  ("Hello" .
+   [1 0 0 0 0])
+  ("KadokawaDwango" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("timeStringCreator" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("CurrentTimeStringCreator" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("settings" .
+   [1 0 0 0 0 0 0 0])
+  ("infra" .
+   [1 0 0 0 0])
+  ("aggregate" .
+   [0 0 0 0 0 1 0 0 0])
+  ("helloInfra" .
+   [0 0 0 0 0 0 1 1 0 0])
+  ("dependsOn" .
+   [0 0 0 0 1 0 0 0 0])
+  ("Actor" .
+   [0 0 1 0 1])
+  ("NumberMessage" .
+   [3 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("ActorSystem" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("PrimeCounter" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("primeCounter" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("receive" .
+   [0 0 0 0 1 0 0])
+  ("ActorRefRoutee" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("PrimeChecker" .
+   [0 0 0 0 0 0 0 0 0 0 1 0])
+  ("Router" .
+   [1 0 0 0 0 0])
+  ("RoundRobinRoutingLogic" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("routees" .
+   [1 0 0 0 0 0 0])
+  ("router" .
+   [1 0 0 0 0 0])
+  ("NumberListMessage" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("list" .
+   [14 0 0 0])
+  ("Prime" .
+   [3 0 0 0 0])
+  ("sendCnt" .
+   [7 0 0 0 0 0 0])
+  ("IsPrimeMessage" .
+   [0 0 0 0 1 1 0 0 0 0 0 0 0 0])
+  ("is" .
+   [2 0])
+  ("NOT" .
+   [1 0 0])
+  ("twitter4j" .
+   [0 0 0 0 0 0 0 3 0])
+  ("sessionID" .
+   [0 0 0 0 0 0 1 0 0])
+  ("sessionId" .
+   [1 0 0 0 0 0 0 0 0])
+  ("flatMap" .
+   [0 0 0 0 1 1 0])
+  ("Cache" .
+   [3 0 0 1 0])
+  ("asInstanceOf" .
+   [0 0 0 0 1 2 0 0 0 0 0 0])
+  ("AccessToken" .
+   [0 0 0 0 2 0 1 1 1 0 0])
+  ("text-align" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("center" .
+   [0 0 0 1 0 0])
+  ("com" .
+   [2 0 0])
+  ("Application" .
+   [0 0 0 0 0 0 1 1 0 0 0])
+  ("RabbitMQConsumer" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("Executors" .
+   [0 0 0 0 0 1 0 0 0])
+  ("app" .
+   [3 0 0])
+  ("info" .
+   [6 0 0 0])
+  ("rabbitMQConsumeExecutor" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ConvertPicture" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("PictureConvertActor" .
+   [0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("pictureConvertActor" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("originalPicture" .
+   [0 0 0 3 0 2 2 8 2 0 0 0 0 0 0])
+  ("scalikejdbc" .
+   [1 0 0 0 0 2 0 3 0 0 0])
+  ("im4java" .
+   [2 0 0 0 0 0 0])
+  ("Logging" .
+   [5 0 0 0 0 0 0])
+  ("Event" .
+   [0 0 0 1 0])
+  ("event" .
+   [4 0 0 0 0])
+  ("context" .
+   [5 0 0 0 0 0 0])
+  ("Rabbit" .
+   [1 0 0 0 0 0])
+  ("MQ" .
+   [1 0])
+  ("の監視を開始します" .
+   [1 0 0 0 0 0 0 0 0])
+  ("atilika" .
+   [0 0 0 1 0 0 0])
+  ("kuromoji" .
+   [0 0 1 0 0 0 0 0])
+  ("Tokenizer" .
+   [0 0 0 0 0 0 1 0 0])
+  ("tokenizer" .
+   [1 0 0 0 0 0 0 0 1])
+  ("line" .
+   [2 0 0 0])
+  ("tokens" .
+   [1 0 0 0 0 0])
+  ("lines" .
+   [1 0 0 0 0])
+  ("foreach" .
+   [0 0 0 0 0 1 0])
+  ("token" .
+   [2 0 0 0 0])
+  ("res" .
+   [2 0 0])
+  ("rep" .
+   [1 0 0])
+  ("videoTag" .
+   [1 0 0 0 0 0 0 0])
+  ("Model" .
+   [1 0 0 0 0])
+  ("String" .
+   [4 0 0 0 0 0])
+  ("Integer" .
+   [2 0 0 0 0 0 0])
+  ("User" .
+   [4 0 0 0])
+  ("Finder" .
+   [1 0 0 0 0 0])
+  ("Long" .
+   [1 0 0 0])
+  ("Video" .
+   [1 0 0 0 0])
+  ("scala-indent:use-javadoc-style" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("UserProfile" .
+   [3 0 0 0 0 0 0 1 0 0 0])
+  ("Await" .
+   [3 0 0 0 0])
+  ("UserProfileModelTest" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("create" .
+   [4 0 0 0 0 0])
+  ("UserProfileModel" .
+   [0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("update" .
+   [4 0 0 0 0 0])
+  ("currentTimestamp" .
+   [2 0 0 0 0 0 0 0 0 0 0 2 0 0 1 0])
+  ("Timestamp" .
+   [0 0 0 0 0 0 0 1 0])
+  ("System" .
+   [1 0 0 0 0 0])
+  ("currentTimeMillis" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("userProfile" .
+   [3 0 0 0 0 0 0 4 0 0 0])
+  ("Equiv" .
+   [0 0 0 1 0])
+  ("userId" .
+   [4 0 0 0 0 0])
+  ("updatedRowCount" .
+   [1 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("user" .
+   [1 0 0 0])
+  ("nickname" .
+   [2 0 0 0 0 0 0 0])
+  ("thumbnail" .
+   [1 0 0 0 0 1 0 0 0])
+  ("birthday" .
+   [2 0 0 1 0 0 0 0])
+  ("isPublishedBirthday" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("i" .
+   [1])
+  ("address" .
+   [1 0 0 0 0 0 0])
+  ("description" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("sex" .
+   [1 0 0])
+  ("timezone" .
+   [1 0 0 0 0 0 0 0])
+  ("rise" .
+   [1 0 0 0])
+  ("ごちうさ難民キャンプ" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("※窓です" .
+   [1 0 0 0])
+  ("RabbitHouse" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("currentTimestamo" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("expirationDate" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("days" .
+   [1 0 0 0])
+  ("sessionExpiredDuration" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("action" .
+   [2 0 0 0 0 0])
+  ("position" .
+   [11 0 0 0 0 0 0 0])
+  ("absolute" .
+   [1 0 0 0 0 0 0 0])
+  ("640px" .
+   [2 0 0 0 0])
+  ("360px" .
+   [1 0 0 0 0])
+  ("top" .
+   [1 0 0])
+  ("0px" .
+   [2 0 0])
+  ("document" .
+   [4 0 0 0 0 0 0 0])
+  ("getElementById" .
+   [0 0 0 1 4 0 1 1 0 0 2 0 0 0])
+  ("comment_canvas" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("commentCanvas" .
+   [2 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("getContext" .
+   [0 0 0 1 0 1 0 0 0 0])
+  ("comment" .
+   [3 0 0 0 0 0 0])
+  ("object" .
+   [7 0 0 0 0 0])
+  ("addFlag" .
+   [6 0 0 0 0 0 0])
+  ("stage" .
+   [4 0 0 0 0])
+  ("addChild" .
+   [2 0 0 0 0 0 0 0])
+  ("addFlat" .
+   [1 0 0 0 0 0 0])
+  ("removeChild" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("for" .
+   [2 0 0])
+  ("messages" .
+   [8 0 0 0 0 0 0 0])
+  ("countComment" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("div" .
+   [7 0 0])
+  ("comment_count" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("innerHTML" .
+   [4 0 0 0 0 1 0 0 0])
+  ("1_240" .
+   [1 0 0 0 0])
+  ("textObject" .
+   [3 0 0 0 0 0 0 0 0 0])
+  ("nil" .
+   [1 0 0])
+  ("requestAnimationFrame" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("animateComment" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("audio" .
+   [1 0 0 0 0])
+  ("form" .
+   [1 0 0 0])
+  ("input" .
+   [3 0 0 0 0])
+  ("placeholder" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("button" .
+   [2 0 0 0 0 0])
+  ("投稿" .
+   [1 0])
+  ("comment_submit" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("command" .
+   [2 0 0 0 0 0 0])
+  ("comment_body" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("xhr" .
+   [1 0 0])
+  ("error" .
+   [1 0 0 0 0])
+  ("auto-mode-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("html-mode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("sessionExpiredDateInt" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("getInt" .
+   [1 0 0 0 0 0])
+  ("white" .
+   [1 0 0 0 0])))
