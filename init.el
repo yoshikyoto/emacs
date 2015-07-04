@@ -203,6 +203,8 @@
 (require 'dash)
 
 ;; EmacsのGitクライアントMagit
-;; 使い方: http://gom.hatenablog.com/entry/20090524/1243170341
+;; 使い方参考:
+;; http://gom.hatenablog.com/entry/20090524/1243170341
+;; http://blog.kzfmix.com/entry/1334196627
 (add-to-list 'load-path "~/.emacs.d/magit")
 (require 'magit)
