@@ -10,7 +10,7 @@
 
 ;; カーソルのある行がハイライトされる
 ;; (global-hl-line-mode t)
-;; (custom-set-faces '(hl-line ((t (:background "dark slate gray")))))
+;; (custom-set-faces '(hl-line ((t (:background "dark gray")))))
 ;; (setq hl-line-face 'underline) ; 下線
 
 ;; xtermのマウスポインタ関連のイベントを取得する
@@ -25,12 +25,12 @@
 (global-set-key   [mouse-5] (kbd "C-n"))
 
 ;; 文字コードなどの環境設定
-(set-locale-environment nil)
-(set-language-environment 'Japanese)
+;; (set-locale-environment nil)
+;; (set-language-environment 'Japanese)
 (set-default-coding-systems 'utf-8)
-(set-terminal-coding-system 'utf-8)
-(setq-default buffer-file-coding-system 'utf-8)
-(prefer-coding-system 'utf-8)
+;; (set-terminal-coding-system 'utf-8)
+;; (setq-default buffer-file-coding-system 'utf-8)
+;; (prefer-coding-system 'utf-8)
 
 ;; 引数なしの起動でもテキストを入力できるようにする
 (setq inhibit-startup-message t)
@@ -48,7 +48,7 @@
 (setq transient-mark-mode t)
 
 ;; インデント幅をはスペース4つにし、インデントにはタブでなく半角スペースをつかう
-(setq default-tab-width 4)
+(setq tab-width 4)
 (setq-default indent-tabs-mode nil)
 
 ;; 矩形選択のキーバインドを C-x SPC に設定
@@ -145,9 +145,9 @@
 
 
 ;; ensime
-;; (add-to-list 'load-path "~/.emacs.d/ensime")
-;; (require 'ensime)
-;; (add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
+(add-to-list 'load-path "~/.emacs.d/ensime")
+(require 'ensime)
+(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 
 
 ;; csharp-mode
@@ -198,13 +198,26 @@
 (setq powerline-color1 "grey22")
 (setq powerline-color2 "grey40")
 
-;; magitのために必要なdash.el
-(add-to-list 'load-path "~/.emacs.d/dash")
-(require 'dash)
 
 ;; EmacsのGitクライアントMagit
 ;; 使い方参考:
 ;; http://gom.hatenablog.com/entry/20090524/1243170341
 ;; http://blog.kzfmix.com/entry/1334196627
+;; magitのために必要なdash.el
+(add-to-list 'load-path "~/.emacs.d/dash")
+(require 'dash)
+;; magit本体
 (add-to-list 'load-path "~/.emacs.d/magit")
 (require 'magit)
+
+
+;; flycheck
+;; flycheckのために必要なlet-alist
+(add-to-list 'load-path "~/.emacs.d/let-alist")
+(require 'let-alist)
+;; flycheck本体
+(add-to-list 'load-path "~/.emacs.d/flycheck")
+(require 'flycheck)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(flycheck-add-next-checker 'javascript-jshint
+                           'javascript-gjslint)
